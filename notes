@@ -1,0 +1,2 @@
+nasm -f elf64 *filename*.asm
+ld -s -o *filename* *filename*.o
